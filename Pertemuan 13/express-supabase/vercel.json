@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/lama/:path*", "destination": "/baru/:path*" }
+  ],
+  "redirects": [
+    { "source": "/old-page", "destination": "/new-page", "permanent": true }
+  ]
+}
